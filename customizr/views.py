@@ -1,5 +1,7 @@
+
+import uuid
 from flask import render_template
-from project_name import app
+from customizr import app
 
 @app.route('/')
 def root():

@@ -7,5 +7,5 @@ app.config.from_object('settings')
 
 db = SQLAlchemy(app)
 
-import project_name.views
-import project_name.models
+import customizr.views
+import customizr.models

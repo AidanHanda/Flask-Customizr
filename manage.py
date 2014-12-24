@@ -1,6 +1,5 @@
-from flaskext.script import Manager
-
-from project_name import app, db
+from flask.ext.script import Manager
+from customizr import app, db
 
 manager = Manager(app)
 
